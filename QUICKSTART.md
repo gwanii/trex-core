@@ -46,6 +46,7 @@ $ cd trex-v2.23/
 $ ls frag  # frag.pcap是原始报文, frag.py是scapy脚本(在trex-v2.23/stl目录下有很多不同测试场景的样例)
 frag.pcap  frag.py
 $ cat frag/frag.py
+# -*- coding: utf-8
 import os
 from trex_stl_lib.api import *
 
